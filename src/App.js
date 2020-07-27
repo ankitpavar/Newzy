@@ -14,20 +14,20 @@ function App() {
     navigator.geolocation.getCurrentPosition(function (position) {
       setLat(position.coords.latitude);
       setLong(position.coords.longitude);
-      console.log("Latitude is :", position.coords.latitude);
-      console.log("Longitude is :", position.coords.longitude);
+      console.log('Latitude is :', position.coords.latitude);
+      console.log('Longitude is :', position.coords.longitude);
     });
-  }, [])
-  
+  }, []);
+
   return (
     <>
       <section className=" text-main-text bg-primary body-font">
         <Header setLanguage={setLanguage} />
         <div className="container px-4 py-5 mx-auto ">
-          <Weather lat={lat} long={long}/>
+          <Weather lat={lat} long={long} />
           {language === 'english' ? <EngRow /> : <HinRow />}
+          <Footer />
         </div>
-        <Footer />
       </section>
     </>
   );

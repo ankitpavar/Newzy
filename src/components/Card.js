@@ -26,7 +26,7 @@ const Card = ({ newzy }) => {
   }
   return (
     <div>
-      <div className=" w-full h-104 rounded-lg bg-secondary overflow-hidden shadow-lg">
+      <div className=" w-full h-100 rounded-lg bg-secondary overflow-hidden shadow-lg">
         <img src={newzy.image} className="w-full h-64" alt={newzy.title} />
         <div className="px-3 py-2 flex flex-col">
           <div className="font-medium text-l text-white w-full h-14 ">

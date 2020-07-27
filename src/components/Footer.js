@@ -9,7 +9,7 @@ function Footer() {
         <div class="container px-5 py-8 mx-auto flex items-center sm:ml-0 sm:flex-row flex-col">
           <a
             href="/"
-            class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+            class="flex font-medium items-center md:justify-start justify-center text-white "
           >
             <svg
               className="bg-transparent text-red-500 w-12 h-12"
@@ -23,12 +23,11 @@ function Footer() {
               ></path>
               <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path>
             </svg>
-            <span className="ml-3 text-xl">Newzy</span>
+            <span className="ml-1 text-xl font-bold">Newzy</span>
           </a>
 
-          <p class=" flex flex-col text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-            © 2020 newzy
-            <span className="t">
+          <p class=" flex flex-col items-start text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+            <span className="">
               Created by
               <a
                 href="https://github.com/ankitpavar"
@@ -56,7 +55,7 @@ function Footer() {
             <p className="text-gray-600 text-sm mr-2">Made with</p>
             <i className="devicon-react-original colored mr-2"></i>
             <span className="text-gray-600 text-sm mr-2">
-              and
+              and Crafted using
             </span>
             <Icon icon={tailwindcssIcon} />{' '}
           </span>
