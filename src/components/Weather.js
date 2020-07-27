@@ -35,7 +35,7 @@ const Weather = ({ lat, long }) => {
           {
             <div className=" flex flex-auto justify-between rounded-lg bg-secondary h-30">
               <div className="flex flex-col px-4 py-2 ">
-                <h2 className="text-sm text-red-500 tracking-widest font-md mb-0">
+                <h2 className="text-sm text-red-600 tracking-widest font-md mb-0">
                   {weather.location.name}
                 </h2>
                 <div className="flex flex-auto flex-row justify-start items-center">
@@ -57,7 +57,7 @@ const Weather = ({ lat, long }) => {
                 </div>
               </div>
               <div className="flex flex-col px-6 py-10 text-sm font-normal text-white ">
-                <span className="text-red-500 text-sm md:text-base lg:text-base">
+                <span className="text-red-600 text-sm md:text-base lg:text-base">
                   {moment().format('LL')}
                 </span>
                 <span className="text-xs md:text-sm lg:text-sm">
