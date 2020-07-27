@@ -5,7 +5,7 @@ import tailwindcssIcon from '@iconify/icons-logos/tailwindcss-icon';
 function Footer() {
   return (
     <>
-      <footer class="text-main-text bg-primary">
+      <footer class="text-main-text bg-primary mt-6 ">
         <div class="container px-5 py-8 mx-auto flex items-center sm:ml-0 sm:flex-row flex-col">
           <a
             href="/"
