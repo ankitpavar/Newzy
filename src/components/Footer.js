@@ -1,4 +1,6 @@
 import React from 'react';
+import { Icon, InlineIcon } from '@iconify/react';
+import tailwindcssIcon from '@iconify/icons-logos/tailwindcss-icon';
 
 function Footer() {
   return (
@@ -53,7 +55,10 @@ function Footer() {
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <p className="text-gray-600 text-sm mr-2">Made with</p>
             <i className="devicon-react-original colored mr-2"></i>
-            <span className="text-gray-600 text-sm mr-2">and tailwindcss</span>
+            <span className="text-gray-600 text-sm mr-2">
+              and
+            </span>
+            <Icon icon={tailwindcssIcon} />{' '}
           </span>
         </div>
       </footer>
