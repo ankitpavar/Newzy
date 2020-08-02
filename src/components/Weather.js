@@ -18,7 +18,6 @@ const Weather = ({ lat, long }) => {
           setLoading(true);
           setWeather(data);
           setLoading(false);
-          console.log(data);
         });
     };
     fetchWeather();

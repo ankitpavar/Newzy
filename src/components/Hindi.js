@@ -15,7 +15,6 @@ function Hindi({ title, fetchUrl, language }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // const languageS = () => (language ? instance1 : instance2);
 
     const fetchNews = async () => {
       const request = await instance2.get(fetchUrl);
